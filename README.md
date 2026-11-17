@@ -15,6 +15,10 @@ SmartShield is a machine-learning project that analyses credit-card transaction 
 
 ## Repository structure
 
+**GitHub repository:** <https://github.com/rahulkumawat835/Credit-Card-Fraud-Detection-Using-Machine-Learning>
+
+The published repository is organised as follows:
+
 ```text
 Credit-Card-Fraud-Detection-Using-Machine-Learning/
 ├── dashboard/
@@ -30,11 +34,16 @@ Credit-Card-Fraud-Detection-Using-Machine-Learning/
 ├── notebooks/
 │   └── Credit Card Fraud Detection.py
 ├── results/
+│   ├── Comparision Table.png
+│   ├── F1 score.png
+│   ├── PR-AUC.png
+│   ├── Pricision.png
+│   ├── Recall.png
 │   └── SmartShield_Model_Comparison.csv
 └── .gitignore
 ```
 
-The original dataset is not stored in this repository. Download it separately using the instructions below. The `reference/` folder used during local development is intentionally not part of this repository.
+The `results/` folder contains the model-comparison CSV and the evaluation plots shown in the GitHub repository: the comparison table, F1-score, PR-AUC, precision, and recall images. The original dataset is not stored in this repository. Download it separately using the instructions below. The `reference/` folder used during local development is intentionally not part of this repository.
 
 ## Dataset
 
